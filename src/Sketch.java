@@ -24,9 +24,9 @@ import processing.core.PFont;
 public class Sketch extends PApplet {
 
     private final int screenWidth = 400;
-    private final int screenHeight = 800;
+    private final int screenHeight = 500;
     private final int startX = 55;
-    private final int startY = 305;
+    private final int startY = 100;
     private final int btnWidth = 60;
     private final int btnHeight = 60;
     private final int sldInfoWidth = 45;
@@ -46,7 +46,7 @@ public class Sketch extends PApplet {
     private Button btnClose;
     private Button[] allButtons;
 
-    private Icon icoUp;
+    private Icon icoPos;
     private Icon icoLeftArrow;
     private Icon icoRightArrow;
     private final int redColor = color(255, 79, 26);
@@ -59,6 +59,11 @@ public class Sketch extends PApplet {
     private int lightBlueColor = color(0, 255, 255);
     Elevator elvControl;
     Slider sldCapacity;
+
+    int rightArrowCode = 0x00f105;
+    int leftArrowCode = 0x00f104;
+    int upArrowCode = 0x00f102;
+    int downArrowCode = 0x00f103;
 
     private ControlP5 cp5;
 
@@ -117,7 +122,7 @@ public class Sketch extends PApplet {
         }
         defaultControlBGColor = floorButtons[0].getColor().getBackground();
 
-        icoUp = addIcon("up", startX + btnWidth + horizontalSpace - 11, getRowY(3) + 5, 0x00f0aa, orangeColor);
+        icoPos = addIcon("up", startX + btnWidth + horizontalSpace - 11, getRowY(3) + 5, upArrowCode, orangeColor);
 
         btnStop = createButton(secondColX, getRowY(0), "v", "Wingdings 2", redColor);//Stop
         btnFire = createIconButton(thirdColX, getRowY(0), 0x00f06d, "btnFire", redColor);
@@ -134,12 +139,12 @@ public class Sketch extends PApplet {
         fill(defaultControlBGColor);
         rect(startX, 10, screenWidth - startX * 2, 50);
         createText(thirdColX, getRowY(2), "z", "Webdings", 50, redColor);
-        elvControl = new Elevator(this, 4, btnHeight + verticalSpace, getRowY(3) + 5, getRowY(0) + 5);
+        elvControl = new Elevator(this, 4, btnHeight + verticalSpace, getRowY(3), getRowY(0), startY);
         setupButtonsForVoice();
 
         //Arrow left/right
-        icoLeftArrow = addIcon("arrowLeft", startX - 25, getRowY(3) + 5, 0x00f100, orangeColor, 30);
-        icoRightArrow = addIcon("arrowRight", startX + 25, getRowY(3) + 5, 0x00f101, orangeColor, 30);
+        icoLeftArrow = addIcon("arrowLeft", startX - 25, getRowY(3) + 5, rightArrowCode, orangeColor, 30);
+        icoRightArrow = addIcon("arrowRight", startX + 25, getRowY(3) + 5, leftArrowCode, orangeColor, 30);
     }
 
     @Override
@@ -157,24 +162,51 @@ public class Sketch extends PApplet {
         } else {
             btnDisability.setColorBackground(defaultControlBGColor);
         }
-
+        elvControl.go();
+        if (this.elvControl.isGoingUp) {
+            icoPos.setFontIcon(upArrowCode);
+        }
+        if (this.elvControl.isGoingDown) {
+            icoPos.setFontIcon(downArrowCode);
+        }
+        icoPos.setPosition(icoPos.getPosition()[0], elvControl.posY);
         blinkArrows();
-
     }
     private int prevBlinkTime = 0;
 
     private void blinkArrows() {
-        int curBlinkTime = millis();
-        if (curBlinkTime - prevBlinkTime > 500) {
-            if (icoLeftArrow.getColor().getForeground() == orangeColor) {
-                icoLeftArrow.setColor(new CColor().setForeground(whiteColor));
-                icoRightArrow.setColor(new CColor().setForeground(whiteColor));
-            } else {
-                icoLeftArrow.setColor(new CColor().setForeground(orangeColor));
-                icoRightArrow.setColor(new CColor().setForeground(orangeColor));
-            }
-            prevBlinkTime = curBlinkTime;
+        if (elvControl.isClosing) {
+            icoLeftArrow.setFontIcon(rightArrowCode);
+            icoRightArrow.setFontIcon(leftArrowCode);
         }
+        if (elvControl.isOpening) {
+            icoLeftArrow.setFontIcon(leftArrowCode);
+            icoRightArrow.setFontIcon(rightArrowCode);
+        }
+        float[] leftPos = icoLeftArrow.getPosition();
+        float[] rightPos = icoRightArrow.getPosition();
+        //Set position
+        if (elvControl.isClosing || elvControl.isOpening) {
+            icoLeftArrow.setPosition(leftPos[0], elvControl.posY);
+            icoRightArrow.setPosition(rightPos[0], elvControl.posY);
+        } else {
+            icoLeftArrow.setPosition(leftPos[0], -1000);
+            icoRightArrow.setPosition(rightPos[0], -1000);
+        }
+        if (elvControl.isClosing || elvControl.isOpening) {
+            int curBlinkTime = millis();
+            if (curBlinkTime - prevBlinkTime > 500) {
+                if (icoLeftArrow.getColor().getForeground() == orangeColor) {
+                    icoLeftArrow.setColor(new CColor().setForeground(whiteColor));
+                    icoRightArrow.setColor(new CColor().setForeground(whiteColor));
+                } else {
+                    icoLeftArrow.setColor(new CColor().setForeground(orangeColor));
+                    icoRightArrow.setColor(new CColor().setForeground(orangeColor));
+                }
+                prevBlinkTime = curBlinkTime;
+            }
+        }
+
     }
 
     private void setupButtonsForVoice() {
