@@ -2,14 +2,11 @@
 **Important Note:**
 
 ### Links
-[Presentation page](https://nnhuyen.github.io/new-hw1) (e.g. https://nnhuyen.github.io/new-hw1, contains content of this README)
+[Presentation page](https://phamvanvung.github.io/hcihw1vung) (https://phamvanvung.github.io/hcihw1vung)
 
-[GitHub repository](https://github.com/nnhuyen/new-hw1) (e.g. https://github.com/nnhuyen/new-hw1)
+[GitHub repository](https://github.com/phamvanvung/hcihw1vung) (https://github.com/phamvanvung/hcihw1vung)
 
-[Demo](https://nnhuyen.github.io/new-hw1) (e.g. https://nnhuyen.github.io/new-hw1/demo.html, the demo file **should not** be named index.html)
-
-[Video (optional)](https://www.youtube.com/watch?v=uilkmUoXoLU)
-
+[Demo](https://phamvanvung.github.io/hcihw1vung)
 
 ### C criteria
 
@@ -21,15 +18,31 @@
 1. Missing support for disability (e.g., it is too high for wheel chair people, missing support for blind people).
 2. Missing several user feedback (current position, door opening, door closing, door opened, door closed, capacity and current weight).
 3. Buttons are scattered in a large space (lost focus).
+5. Missing emergency stop button (to stop in case needed)
 
 ### Getting B:
-- Think about the common things that you use an elevator. List your most common uses and other more rare uses. Does the interface make doing those common things easier?
-Functionalities are indicated 
-1. Select floor
-2. 
-- Think about how the user interacts with the elevator. What is the common sequence of actions?
+- Functionalities are listed from more to less common
+0. Accessibility (support for disabled people) 
+1. Knowing what direction the elevator is moving to
+2. Select floor
+3. Closing door button
+4. Holding door button
+5. Knowing current position
+6. Knowing current capacity
+7. Emergency stop
+8. Emergency elevator operator call
+9. Emergency alarm
+10. Fire operator support
+
+- What is the common sequence of actions?
+1. Checking the direction
+2. Checking the capacity
+3. Selecting the floor
+4. Knowing the current floor (or position if details could be provided)
+5. Knowing that the door is opened
 
 - How does the elevator support the user figure out how to make it work?
+1. Sound
 
 - How does the elevator provide feedback to the user?
 
