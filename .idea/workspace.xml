@@ -2,125 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3f1d3e-95ef-4c68-a5fa-53f7835f45c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hcihw1vung.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$20.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$22.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/AudioPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/Elevator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/ProgressBar$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/Sketch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/callElevatorOperatorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/closeDoorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/emergencyAlarmButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/emergencyStopButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/fireOperatorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/firstFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/firstFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/firstFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/groundFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/groundFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/groundFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/openDoorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/ping.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/readerModeActivated.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/readerModeDeactivated.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/screenReaderButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/secondFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/secondFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/secondFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/steelbackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/thirdFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/thirdFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/thirdFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/empty/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/generated-sources/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/generated-sources/ap-source-output/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Elevator.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/README.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/controlP5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/javamp3-1.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/jiconfont-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/jiconfont-font_awesome-4.7.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/jiconfont-swing-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/jsyn-20171016.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/lib/sound.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.mf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/callElevatorOperatorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/closeDoorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/emergencyAlarmButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/emergencyStopButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/fireOperatorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/firstFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/firstFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/firstFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/groundFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/groundFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/groundFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/openDoorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/ping.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/readerModeActivated.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/readerModeDeactivated.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/screenReaderButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secondFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secondFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/secondFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/steelbackground.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/thirdFloor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/thirdFloorButton.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/thirdFloorSelected.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon&#10;" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sketch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Icon&#10;" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/images/originalelevator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -133,11 +17,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AudioPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -146,6 +52,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.MD" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -164,6 +77,17 @@
               <item name="hcihw1vung" type="b2602c69:ProjectViewProjectNode" />
               <item name="hcihw1vung" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hcihw1vung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hcihw1vung" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hcihw1vung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hcihw1vung" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,9 +98,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/report/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,24 +131,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568832606961</updated>
-      <workItem from="1568832608709" duration="166000" />
+      <workItem from="1568832608709" duration="1623000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1568832852314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568832852314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166000" />
+    <option name="totallyTimeSpent" value="1623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.083785415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3297062" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4996986" visible="true" weight="0.14363438" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50030136" side_tool="true" visible="true" weight="0.14363438" />
       <window_info anchor="bottom" id="Messages" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -234,11 +173,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
