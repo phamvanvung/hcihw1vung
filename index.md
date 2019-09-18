@@ -1,5 +1,4 @@
 # Report 
-**Important Note:**
 
 ### Links
 [Presentation page](https://phamvanvung.github.io/hcihw1vung) (https://phamvanvung.github.io/hcihw1vung)
