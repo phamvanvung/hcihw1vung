@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac3f1d3e-95ef-4c68-a5fa-53f7835f45c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/report/images/hw1.pham.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/images/position.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Elevator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/ProgressBar$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Sketch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/Sketch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Elevator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Elevator.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sketch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sketch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="176">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="214">
+                <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,6 +65,11 @@
             <path>
               <item name="hcihw1vung" type="b2602c69:ProjectViewProjectNode" />
               <item name="hcihw1vung" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hcihw1vung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hcihw1vung" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hcihw1vung" type="b2602c69:ProjectViewProjectNode" />
@@ -131,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568832606961</updated>
-      <workItem from="1568832608709" duration="10440000" />
+      <workItem from="1568832608709" duration="11161000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1568832852314</created>
@@ -154,11 +148,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568835378055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Submission">
+      <created>1568847983575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568847983575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10440000" />
+    <option name="totallyTimeSpent" value="11161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -191,7 +192,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Submission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Submission" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -221,8 +223,8 @@
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <first_editor relative-caret-position="214">
+            <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           </first_editor>
           <second_editor />
         </state>

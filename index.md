@@ -8,7 +8,7 @@
 
 [Gif](report/images/hw1.pham.gif) (https://phamvanvung.github.io/hcihw1vung/report/images/hw1.pham.gif)
 
-[Demo](https://phamvanvung.github.io/hcihw1vung)
+[Demo](https://phamvanvung.github.io/hcihw1vung/dist.zip)
 
 ### C criteria
 
